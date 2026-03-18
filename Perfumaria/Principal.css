@@ -1,22 +1,26 @@
 body {
     background-color: antiquewhite;
-    margin: 0;
-    padding: 0;
     
+    
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .topo {
     
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 10px;
     gap: 50px;
     margin-right: 40px;
+    cursor: pointer;
 }
 
 img{
     display: block;
-    justify-content: left;
+    justify-content: center;
     width: 50px;
     height: 50px;
     border-radius: 20px;
@@ -25,9 +29,102 @@ img{
 
 
 header {
-    background: url(https://lh3.googleusercontent.com/rd-gg-dl/AOI_d__wjErmfmFNX9Pi3g8IKo7OScSnJfofn2lpGO4iU1KG7oH0k7cZJtOimXVGemLuu5TM6adC5Q41jMTR9y1Q0sf8ybGCtXidCFvz0A2g3-u2b5VYr9Ajc-w0HzrHmF-jj9chJtEdvXpnEOE5-nibsZ5Q0vA04IggFFMPSliMMLBDNBLs9QF_6VRPgVYQwrU2udy4U6VPC7KKiByi8H390vtpS8azPWR4uic_hM3joH-fkRtOzx9Lr13RrK1DDsy6b613s_asgFAu5pKBdBe3mtXypZ87QnZit9z10sTahGVp8afvylrJJfTh8nKkF92d3pFZr-q0ot6gympbdPMd_3vZBTszCfHbbmEXswzfZsXUdgKPM0H8L7UK0tIzfN5OltZ01Al2UjvMkerg5anP5h_xO29WC2yMvJd1VsKLUV_pAIw0iGnbx3U2WfqZFQ1ai8WOCGfh_6zia9ik2IM2xItvCm-7cRkvSpWY-aNK6E7Id0JYiXNQyo71LR76Fa6kWXojHhNzhvMCiF8ieeJzZw8_MYUwID6a2fo3fPxWc1Zg_7u46utU7J2tY7MkX7DHmqScfuuPz0pYkqrSObTeGb3Clg372VSikX-yDKC2lfMINC4LYidZZvNK3dQtCJcmBEuE7yN7KflWzmcc0DRRZDPI3ugB2SN0oToGkFfOw_XwxyGR7AuLUyMSQkYwL2lNHa8prPT9hkMqv1tXCE5fOfXs21WiiFH46_tSd7E4j3gctP8mHQ-S8XxBGdCCH_dJPj1AddTDN-60EcgPjt9hA3hQhxSPNajpIcfqCV0BCx7IphwkuBggZZ-1-GeMBeVqIn78flrcOFOshqr4czAsH0EN5cPqQdM6T75FC6DhFYg4n30AuIMy8-bNfhPs1xbDcaiDLj2GEUxBQTFvjXnafapjRHEOlshgipGnPPlHJZ8ljkvIPlERJJK80g3fgEZdVLU9bYJQvAKnYteUK9XFyBMk1k_zxEBQrxeYo1-G9GdagqHd54TWI9S55e0APvsk8zKfoG6prtFk83jmvQQyL3e_N3_EFlySmQeYGEeZBrC-O7wmI7puqZkSHB3qzGoIicI29snXOF06d7k8g3R7p43PKLrNzMvDIoJS3WpH0MUlyCDhZ263K2oe3Kv3JzYOZXUnrsssTCSuUg4H2PPzDYMb9ibSBOPI4KlfmnUeHufkWBfV4LheJV4-9KKsbMy2KTD6n-jZdRrKh-roAslM=s1024-rj) center/cover;
+    background: url(https://lh3.googleusercontent.com/rd-gg/AMW1TPqQtJrU6nOj5ISZ2rbYjG1h7ziThJ8OwxwyZMjvEfqGpjCaZkQCGzP4jhIB-XieLY8NKao_NoJlld-3Voxc084EAVHaqk17LtKSRWa9RH7AfLLBod_-zwOezou4467lhCZ-OaIC5kE1wyujdJez446mu3gS-DmDpikuYOyJ8XBY2bzQMpQqs32uBkGzz4WE9AFzGZar0KN3CoAA-LbgWXcisy-RXVfMfLtzfVnbIxyx7cuv-PGpzaE46ON3k1W6wYRI13AZmydDv8DTaGCDwry3qhUBy6Od87tDKGEioTYatV4fvmgJrEN0uDQxkcF7Y2g8Ge7J_a-CBrO2yEpMfE0i2u2H5DuuO14A9Fb4qI-DALVLSsVuMYrF1m70B3GFbJC3m_bErt6eDOgkN3yb9GTP3T9waFlsiETlNyFikeiugDSvOcYiMi74BazRPWKMP3mGhvdjOW4Ws0SbqoTVkJ4qEPvU6Oscy4xs8LOQ9qkqmJZhURUntzre7eapgrabcBgCmjdT-uaXaQWmdgGs9z5XTbapX_0FhsPLOvA7qHPUwGlgq906y_pLutox8gX62aaVlh2n1-7P2b7ASBsK_VXKzUdc50uEpBIAGOsxD_9HtPJrrpAwQme865NbyieKn_VUX0wy_eRzjDTlB-rmpshfQWwHCwUlwtlclH-X6QQDh3tM3IpTo9NIxLybnXSUs26-6LMfQhsWBbJJ0VBXzaPNPnXNhsCOQhruslXHzwhSRdez1CN_0DV_PBon9gUXHRADhI-kX2LMNDexZZd2Vd2XRt46O_JFdQLAfDSgPPtXOE71dFYBBS_7xFv0vekm2pzc0W3NvmG5dx4jT6eg0igRKeOF5V61_haSwQ2nZ1ZN0e8coBTbrFSs0_nqVqsqF1nomi-ZXZflFwWPlS-0qfQhyv-lhuDmJdgxeXATbCM2-Iji_g2_GNINBLApm858zgNpu4pVLcoCSM8FA_fNXkFMMqLtaY8ZbGzafs1NvjWVIi-pPl6qKrLNirQWxyJCdGR4CKQq1FFuVAi82TaIFGdhHAlIpzKBSzvjybwUZCXV6i7n0JJeioRH74K6ZXiACB9XkJPuMN7w5Ug-gD3oU_seBMjWukXbrKy6t_WhksO5OTWBKkMYAYzWFPWreizGm0O-R9KaQwAtuGVgA4fgr_dLzHc93uB4QmOHU3gaSog9weYyC_Q7qkBh0PgbuwtIVM4Q5tGG6aH2lpKEd8f__7jNudNMvv4pNEnxSVxbfEnmGKCirvAypjpLTMl-fw3gg2n49jvZxXUytO5MhDBuX6n4N-Si8mE3Wptm3Cno23_SJL31HW59nb3XELyvuByGQdfU7bnXflgMidiJZ4o9ZgzzLb5nCBDba8uhbQA9qs05SuTSsA=s1024-rj) center/cover;
     padding: 150px 0px;
     text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 50px;
+    color:rgb(21, 56, 0);
 }
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+section{
+    padding: 30px 20px;
+    max-width: 100px;
+    margin: auto;
+}
+
+.titulo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botao {
+    display: flex;
+    padding: 10px 20px;
+    background-color: rgb(21, 56, 0);
+    color: gold;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(110, 204, 110, 0.5);
+}
+
+.botao:hover {
+    background-color: rgb(216, 187, 23);
+    color: rgb(21, 56, 0);
+
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.servicos {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;  
+}
+
+.card1 {
+    background-color: rgb(21, 56, 0);
+    color: gold;
+    width: 300px;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+    padding: 50px;
+    box-shadow: 0px 4px 8px rgba(110, 204, 110, 0.5);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.card1:hover {
+    background-color: rgb(48, 102, 16);
+    transform: scale(1.1);
+}
+
+.container-sobre {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    max-width: 600px;
+    
+}
+
+
+
+
+
+
